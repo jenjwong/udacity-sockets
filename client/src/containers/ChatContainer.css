@@ -1,0 +1,20 @@
+.chat-container {
+  background-color: white;
+  width: 330px;
+  height: 430px;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: solid lightgray 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 769px) {
+  .chat-container {
+    margin-right: 3vw;
+  }
+}

@@ -1,0 +1,17 @@
+.chat--form {
+  max-width: 90%;
+}
+
+.chat-text--input {
+  width: 330px;
+  height: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: none;
+  position: fixed;
+  bottom: 0;
+  border-top: solid lightgray 1px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}

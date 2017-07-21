@@ -1,0 +1,5 @@
+.message-display {
+  overflow: scroll;
+  max-height: 100%;
+  margin-bottom: 40px;
+}

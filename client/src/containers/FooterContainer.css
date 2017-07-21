@@ -1,0 +1,36 @@
+.chat {
+  color: white;
+  font-size: 30px;
+  text-align: right;
+  margin: 0.5vw 2vw;
+}
+
+.ask {
+  font-size: 18px;
+  padding-right: 2vw;
+}
+
+footer {
+  background-color: maroon;
+  height: 45px;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+
+}
+
+@media (min-width: 1140px) {
+  footer {
+    height: 65px;
+    margin-left: -10vw;
+  }
+
+  .chat {
+    color: white;
+    font-size: 43px;
+  }
+
+  .ask {
+    font-size: 30px;
+  }
+}

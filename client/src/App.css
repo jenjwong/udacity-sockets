@@ -1,0 +1,107 @@
+body {
+  width: 100%;
+  margin-bottom: 10vh;
+  font-family: 'Special Elite', cursive;
+}
+
+hr {
+  opacity: 0.1;
+  margin-bottom: -1vw;
+  border-color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header--text--container {
+  flex: 1 1 90%;
+  text-align: right;
+  font-size: 2vw;
+  margin: 3vw;
+}
+
+.header--text--name {
+  font-size: 4.7vw;
+  margin-bottom: 1vw;
+  text-align: right;
+  min-height: 9vh;
+  min-width: 2vw;
+  display: block;
+}
+
+.header--text--title {
+  font-family: 'Codystar', cursive;
+  font-size: 16vw;
+  margin-top: 3vw;
+  color: maroon;
+  height: 35vh;
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 6vw;
+  text-align: center;
+  min-height: 10vh;
+  margin-Top: 3vh;
+}
+
+@media (min-width: 669px) {
+  .header--text--title {
+    height: 40vh;
+  }
+}
+
+@media (min-width: 769px) {
+
+  .header--text--name {
+    font-size: 4vw;
+    margin-bottom: 1vw;
+    text-align: right;
+  }
+
+  .header--text--title {
+    font-family: 'Codystar', cursive;
+    font-size: 8vw;
+    margin-top: 3vw;
+    color: maroon;
+  }
+
+  .section-title {
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 5vh;
+  }
+}
+
+@media (min-width: 1140px) {
+  header {
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .app-container {
+    width: 80vw;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+}

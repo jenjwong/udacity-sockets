@@ -1,0 +1,64 @@
+.project-list-entry-container {
+  text-align: center;
+  height: 40vh;
+  display: flex;
+}
+
+.project-list-entry-link {
+  flex: 1 1 100%;
+  align-self: center;
+}
+
+.project-list-entry-image {
+  width: 55%;
+  height: auto;
+  max-width: 100%;
+}
+
+.project-list-entry-title {
+  margin: 2vh 0 2vh;
+}
+
+@media (min-width: 769px) {
+  .project-list-entry-container {
+    text-align: center;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .project-list-entry-link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-list-entry-image {
+    width: 23vw;
+    height: auto;
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .project-list-entry-title {
+    margin: 2vh 0 2vh;;
+  }
+
+  .britecharts {
+    order: 1;
+  }
+
+  .bands-nearby {
+    order: 2;
+  }
+
+  .traffic {
+    order: 3;
+  }
+}
+
+@media (min-width: 1140px) {
+  .project-list-entry-container {
+    margin: 4vw;
+    margin-top: -20px;
+  }
+}

@@ -1,0 +1,17 @@
+.chat-entry {
+  overflow-wrap: break-word;
+  margin: 10px;
+  flex: 1 1 100%;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.chat-primary-user {
+  background-color: #0cb4e6;
+  color: white;
+}
+
+.chat-other-user {
+  background-color: #dbe2e9;
+  color: black;
+}
