@@ -32,9 +32,7 @@ From the root directory start the development environment by running:
 ```
 npm run dev
 ```
-This command uses the concurently module to start the Express server and run the React environment. 
-
-To streamline development the project uses [Facebook's Create React App](https://github.com/facebookincubator/create-react-app)
+To streamline development the project uses [Facebook's Create React App.](https://github.com/facebookincubator/create-react-app)
 
 ## Tests
 
