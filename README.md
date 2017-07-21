@@ -38,7 +38,7 @@ To streamline development the project uses [Facebook's Create React App](https:/
 
 ## Tests
 
-This application implements basic testing with Enzyme, and Jest.
+This application implements basic testing with Enzyme, and Jest. [Mock-sockets](https://www.npmjs.com/package/mock-socket) is used to mock out sockets.
 
 To execute the test suite, in the client directory run:
 ```
